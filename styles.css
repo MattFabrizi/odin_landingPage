@@ -2,22 +2,75 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
-    width: 1100px;
+    width: 1000px;
     min-width: 600px;
     margin: 0 auto;
 }
 
 header {
     background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+#nav-bar a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+}
+
+#nav-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .hero-section {
     background-color: #1F2937;
 }
 
+.hero-text>h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text>p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    border-style: none;
+    border-radius: 5px;
+}
+
 .info-section {
     text-align: center;
+}
+
+.info-section>h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-section figcaption {
+    color: grey;
+    font-size: 18px;
 }
 
 .quote-section {
@@ -28,16 +81,45 @@ header {
     width: 800px;
     min-width: 600px;
     margin: 0 auto;
+    color: #1F2937;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+cite {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
 }
 
 .cta-div {
     background-color: #3882F6;
-    width: 1100px;
+    width: 1000px;
     min-width: 600px;
     margin: 0 auto;
+}
+
+.cta-div h3 {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.cta-div p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.cta-div button {
+    border: 2px solid #F9FAF8;
 }
 
 footer {
     background-color: #1F2937;
     text-align: center;
+    color: #E5E7EB;
 }
