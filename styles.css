@@ -2,6 +2,12 @@
     margin: 0;
 }
 
+.container {
+    width: 1100px;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
 header {
     background-color: #1F2937;
 }
@@ -10,14 +16,28 @@ header {
     background-color: #1F2937;
 }
 
+.info-section {
+    text-align: center;
+}
+
 .quote-section {
     background-color: #E5E7EB;
 }
 
-.cta.div {
+.quote {
+    width: 800px;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-div {
     background-color: #3882F6;
+    width: 1100px;
+    min-width: 600px;
+    margin: 0 auto;
 }
 
 footer {
     background-color: #1F2937;
+    text-align: center;
 }
