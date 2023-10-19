@@ -156,14 +156,18 @@ cite {
 
 .cta-div {
     background-color: #3882F6;
-    width: 950px;
+    max-width: 950px;
     min-width: 600px;
-    margin: 0 auto;
+    margin: 80px auto;
+    display: flex;
+    border-radius: 10px;
+    padding: 50px 20px;
+    justify-content: space-evenly;
 }
 
 .cta-div h3 {
     color: #F9FAF8;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 24px;
 }
 
