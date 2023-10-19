@@ -135,8 +135,9 @@ button {
 .quote {
     width: 800px;
     min-width: 600px;
-    margin: 0 auto;
+    margin: 0px auto;
     color: #1F2937;
+    padding: 130px 10px;
 }
 
 blockquote {
@@ -149,6 +150,8 @@ cite {
     font-size: 21px;
     font-style: normal;
     font-weight: 700;
+    display: block;
+    text-align: right;
 }
 
 .cta-div {
